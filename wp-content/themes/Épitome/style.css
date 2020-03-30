@@ -1,0 +1,214 @@
+/*
+Theme Name: L'Épitome
+Author: KAIZERWEBDESIGN - +237 696 46 83 33
+Version: 1.0
+*/
+@import "css/core-style.css";
+
+
+.pt-500{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+section.pt-500 div { 
+    position: relative;
+}
+
+.owl-nav{
+    position: absolute !important;
+    top: 35%;
+    width: 100%;
+}
+
+.owl-prev{
+    display: inline-block;
+    left: -9%;
+}
+
+.owl-next{
+    display: inline;
+    left: 100%;
+}
+
+.owl-nav .fa {
+    font-size: 32px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .owl-nav{
+        display : none !important;
+    }
+}
+
+
+ul.menu-list li.active a {
+    color: #bf1e2e !important;
+    border-bottom: 2px solid;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #bf1e2e;
+}
+
+div#sticker{
+    padding-top: 0px; 
+    padding-bottom: 0px; 
+}
+
+.header-area .pixel-main-menu .classy-navbar{
+    height: 100px;
+}
+
+.header-area .pixel-main-menu .classy-navbar::before{
+    content: '';
+    height: 100%;
+    width: 17%;
+    position: relative;
+    left:-60px;
+
+}
+
+.header-area .is-sticky .pixel-main-menu .classy-navbar::before{
+    background: white;
+}
+
+.classy-navbar .nav-brand{
+    position: absolute;
+    left: 6px;
+}
+
+.about-us-content p{
+    color: black;
+}
+
+.services_slider .owl-item .services_item .services_item_inner .service_item_icon{
+    top: -47px;
+}
+
+
+.services_slider .owl-item.center .services_item .services_item_inner .service_item_icon{
+    top: -80px;
+}
+
+span.instructions{
+    font-size: 14px;
+    font-weight: 500;
+    color: #452b78;
+    margin-top: 29px;
+    position: relative;
+    top: 20px;
+}
+
+.cta-section .cta-content p{
+    margin-bottom: 15px;
+}
+
+.cta-icons{
+    position: relative;
+    top: 30px;
+}
+
+.single-team-member .hover-text{
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-bottom: 25px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 121, 2, 0)), to(#ef2a33));
+    background-image: -webkit-linear-gradient(top, rgba(255, 121, 2, 0), #ef2a33);
+    background-image: -o-linear-gradient(top, rgba(255, 121, 2, 0), #ef2a33);
+    background-image: linear-gradient(to bottom, rgba(255, 121, 2, 0), #ef2a33);
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media screen and (min-width: 575px) {
+    span.instructions{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .why-logo{
+        margin-top: 70px!important;
+    }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    .why-logo{
+        margin-top: 250px!important;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width: 376px) {
+    .header-area .pixel-main-menu .classy-navbar::before{
+        width: 55%;
+    }
+    .classy-navbar .nav-brand {
+        position: absolute;
+        left: 14px;
+        width: 30%!important;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .header-area .pixel-main-menu .classy-navbar::before{
+        width: 58%;
+    }
+    .classy-navbar .nav-brand {
+        position: absolute;
+        left: 14px;
+        width: 30%!important;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width: 450px) {
+    .header-area .pixel-main-menu .classy-navbar::before{
+        width: 55%;
+    }
+    .classy-navbar .nav-brand {
+        position: absolute;
+        left: 21px;
+        width: 30%!important;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width: 769px) {
+    .header-area .pixel-main-menu .classy-navbar::before{
+        width: 30%;
+    }
+    .classy-navbar .nav-brand {
+        position: absolute;
+        left: -10px;
+        width: 20%!important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1050px) {
+    .header-area .pixel-main-menu .classy-navbar::before{
+        width: 30%;
+    }
+    .classy-navbar .nav-brand {
+        position: absolute;
+        left: 6px;
+        width: 18%!important;
+    }
+}
